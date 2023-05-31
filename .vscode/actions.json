@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Desplegar y Construir Juan C. Nieto",
+        "environment": "pase",
+        "extensions": [
+            "GLOBAL"
+        ],
+        "deployFirst": true,
+        "command": "/QOpenSys/pkgs/bin/gmake BIN_LIB=&CURLIB OPTS=*EVENTF"
+    }
+
+]
