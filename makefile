@@ -8,7 +8,7 @@ CMO=0000178
 LIBLIST=FINTRAB FINPLTDAT FINCOODAT FINCLIDAT FINCOOOBJ EOCOBJETO
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: ejemplo1.rpgle comodin.cmo
+all: convertir.rpgle comodin.cmo
 
 %.sql:
 	system -s "CAll FINCOOOBJ/CREALIB PARM('$(DESTINO)')"
